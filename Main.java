@@ -57,6 +57,12 @@ public class Main {
         System.out.println("Enter Second Number: ");
         num2 = sc.nextInt();
 
+        if (num1 > num2) {
+            int compare = num1;
+            num1 = num2;
+            num2 = compare;
+        }
+
         total = 0;
         for(int i = num1; i <= num2; i++){
             total += i;
