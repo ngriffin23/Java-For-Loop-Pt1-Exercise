@@ -49,7 +49,7 @@ public class Main {
         System.out.println("Sum of Even Numbers :" + " " + evenSum);
 
 // Challenge 7
-        iint num1, num2, total;
+        int num1, num2, total;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First Number: ");
         num1 = sc.nextInt();
