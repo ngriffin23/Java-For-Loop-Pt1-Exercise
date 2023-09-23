@@ -58,9 +58,9 @@ public class Main {
         num2 = sc.nextInt();
 
         if (num1 > num2) {
-            int compare = num1;
+            int temp = num1;
             num1 = num2;
-            num2 = compare;
+            num2 = temp;
         }
 
         total = 0;
